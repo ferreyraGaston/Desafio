@@ -70,18 +70,17 @@ Post- Condiciones:
 
 
 
-<!-- YT:START -->
 
-<!--
-- [Resolucion del desafío][video1]
+### 🎥 Listado de videos
+
+<!-- YT:START -->
+- [Resolución desafío 1_Parte1][video1]
 
 
 <!-- YT:END -->
 
-<!--
+
 ---
 [video1]: https://www.youtube.com/watch?v=oyQQRNPyZ0E
 
-
--->
 
