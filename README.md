@@ -4,7 +4,7 @@
 
 <a href="url"><img src="https://github.com/gastonloco/Desafio/blob/main/IMG/image001.png" align="left" height="300"></a>
 
-
+---
 <p>El objetivo del sistema es registrar suscripciones para una revista mensual.
  
 Para registrar la suscripción, se debe buscar (por tipo y número de documento) el suscriptor que debe estar  guardado previamente. En la pantalla se visualizaran todos los datos, en modo lectura, y al aceptar se efectuará la operación con la fecha actual. (Ver C.U.Registrar Suscripción)
@@ -47,28 +47,21 @@ Fracaso:
 
 
 Post- Condiciones: 
-Éxito: 1. Datos personales del suscriptor registrado
-Fallo:2. La persona no pudo ser dado de alta.
+Éxito: 
+- Datos personales del suscriptor registrado
+Fallo:
+- La persona no pudo ser dado de alta.
 
 
 ## Objetivo: Modificar Datos completos de un nuevo Suscriptor
 
 
 Post- Condiciones: 
-Éxito: 1. Datos personales del suscriptor modificados
+Éxito:
+- Datos personales del suscriptor modificados
 Fallo: 
-1. El suscriptor no pudo ser modificado.
-2. No se confirmaron los datos modificados
-
-
-## Objetivo: Modificar Datos completos de un nuevo Suscriptor
-
-
-Post- Condiciones: 
-Éxito: 1. Datos personales del suscriptor modificados
-Fallo: 
-1. El suscriptor no pudo ser modificado.
-2. No se confirmaron los datos modificados
+- El suscriptor no pudo ser modificado.
+- No se confirmaron los datos modificados
 
 
 
