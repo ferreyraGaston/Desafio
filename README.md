@@ -3,8 +3,14 @@
 ---
 
 <a href="url"><img src="https://github.com/gastonloco/Desafio/blob/main/IMG/image001.png" align="left" height="300"></a>
+<br>
+<br>
+
 
 ---
+
+<br>
+<br>
 <p>El objetivo del sistema es registrar suscripciones para una revista mensual.
  
 Para registrar la suscripción, se debe buscar (por tipo y número de documento) el suscriptor que debe estar  guardado previamente. En la pantalla se visualizaran todos los datos, en modo lectura, y al aceptar se efectuará la operación con la fecha actual. (Ver C.U.Registrar Suscripción)
@@ -16,7 +22,7 @@ En el caso de que el suscriptor exista y se quiera modificar los datos, el campo
 Se deberá plantear opciones de resolución según sea la forma más cómoda de desarrollar. Es un enunciado genérico por lo que se puede elegir la tecnología en .NET, por ejemplo en webforms en lenguaje C#  y Sql server en cualquiera de sus versiones
  </p>
 
-### Modelo de datos
+## Modelo de datos
 
 ![image](https://user-images.githubusercontent.com/63177312/190065988-5f362128-8c2a-4b06-a85f-09534a1ec28d.png)
 
@@ -36,8 +42,9 @@ Se deberá plantear opciones de resolución según sea la forma más cómoda de 
 
 
 Post- Condiciones: 
-Éxito: 1. Registrar suscripción 
-Fracaso:
+### Éxito:
+- Registrar suscripción 
+### Fracaso:
 - El suscriptor tiene una suscripción vigente.
 - No pudieron modificarse los datos del suscriptor.
 - La persona no confirma el registro de la nueva suscripción
@@ -47,9 +54,9 @@ Fracaso:
 
 
 Post- Condiciones: 
-Éxito: 
+### Éxito: 
 - Datos personales del suscriptor registrado
-Fallo:
+### Fallo:
 - La persona no pudo ser dado de alta.
 
 
@@ -57,9 +64,9 @@ Fallo:
 
 
 Post- Condiciones: 
-Éxito:
+### Éxito:
 - Datos personales del suscriptor modificados
-Fallo: 
+### Fallo: 
 - El suscriptor no pudo ser modificado.
 - No se confirmaron los datos modificados
 
