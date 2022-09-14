@@ -1,203 +1,89 @@
-<h1 align="center">Gestion Deposito (ISPCA2G5)</h1>
+<h1 align="center">Exámen Técnico Encode</h1>
 
 ---
 
-<a href="url"><img src="https://github.com/PPROF2-2022ProgWeb/g05-aula2-gestiondesposito-g05/blob/main/Angular/src/assets/img/logo.png" align="left" height="300"></a>
+<a href="url"><img src="https://github.com/gastonloco/Desafio/blob/main/IMG/image001.png" align="left" height="300"></a>
 
 
-# Desafío E-commerce..
-# Proyecto de trabajo integrador
-### Sitio: Instituto Superior Politécnico Córdoba.
+<p>El objetivo del sistema es registrar suscripciones para una revista mensual.
+ 
+Para registrar la suscripción, se debe buscar (por tipo y número de documento) el suscriptor que debe estar  guardado previamente. En la pantalla se visualizaran todos los datos, en modo lectura, y al aceptar se efectuará la operación con la fecha actual. (Ver C.U.Registrar Suscripción)
+ 
+En el caso de que no existiera el suscriptor, se procede a registrarlo en la misma pantalla. Se debe tener en cuenta que el nombre de Usuario no se debe repetir y el password se deberá guardar encriptado en la base de datos. Ver C.U. Registrar Suscriptor
+ 
+En el caso de que el suscriptor exista y se quiera modificar los datos, el campo nombre de usuario permanecerá en solo lectura, se podrán modificar todos los demás datos. Ver C.U. Modificar Suscriptor
+ 
+Se deberá plantear opciones de resolución según sea la forma más cómoda de desarrollar. Es un enunciado genérico por lo que se puede elegir la tecnología en .NET, por ejemplo en webforms en lenguaje C#  y Sql server en cualquiera de sus versiones
+ </p>
 
-### Curso: Programador Web - TSDWAD - Cohorte 2021.
+### Modelo de datos
 
-#### https://github.com/PPROF2-2022ProgWeb/g05-aula2-gestiondesposito-g05
-<br>
-<br>
-<br>
-<br>
-
-####
----
-**Perspectiva del producto:**
-<br><br>
-El sistema será un producto diseñado para trabajar en entornos WEB, lo que facilita la manera de trabajar, manejando la facturación y el inventario del mismo, manejo de proveedores. también como punto importante tendrá un control de stock y estará vinculado con la tienda virtual realizando los cambios correspondientes.
+![image](https://user-images.githubusercontent.com/63177312/190065988-5f362128-8c2a-4b06-a85f-09534a1ec28d.png)
 
 <br>
 <br>
-
-
----
-
-###         Aula 2 -  Grupo 5
----
+- **Script**. Estudiante de Desarrollo Web y Aplicaciones Móviles [Ver Script](https://github.com/gastonloco/Desafio/blob/main/BD/Suscripcion.sql).
 <br>
-<br>
-
-#### 1     Introducción
----
-
-El documento es una Especificación de Requisitos Software (ERS) para el Sistema de información para la gestión de procesos y control de inventarios. Esta especificación se ha estructurado basándose en las directrices dadas por el estándar IEEE Práctica Recomendada para Especificaciones de Requisitos Software ANSI/IEEE 830, 1998.
-<br>
-
-#### 1.1         Propósito
----
-
-Este sistema fue creado con el objetivo de brindar una solución tecnológica para el área de gestión administrativa de tu empresa o emprendimiento de manera virtual utilizando tu tienda virtual, en donde el uso de software o tablas de Excel que no son funcionales a la hora de facturar.
-Bajo esta problemática se creó un sistema online, para poder ingresar desde cualquier lugar, adaptable a la tienda virtual, al sistematizar los datos se logrará un trabajo más eficiente.
-
-<br>
-
-#### 1.2         Alcance
---- 
-
-El sistema de facturación está apuntado a toda persona que tiene comercio online, como woocommerce o tienda online en Facebook e Instagram, sincronizando la base de datos con el sistema de G.D, manteniendo así todo el historial de ventas, presupuestos, nota de crédito o la cartera de clientes.
-
---- 
-<br>
-
-#### 2.1         Perspectiva del producto
---- 
-
-El sistema será un producto diseñado para trabajar en entornos WEB, lo que facilita la manera de trabajar, manejando la facturación y el inventario del mismo, manejo de proveedores. también como punto importante tendrá un control de stock y estará vinculado con la tienda virtual realizando los cambios correspondientes.
-
-
---- 
-<br>
-
-#### 2.2         Funcionalidad del producto (GESTIÓN DE PROCESOS)
---- 
-
-<p align="center">
-  <a>
-    <img alt="Edit on CodeSandbox" src="https://github.com/PPROF2-2022ProgWeb/g05-aula2-gestiondesposito-g05/blob/main/Angular/src/assets/img/pngcom.png">
-  </a>
-</p>
-
 <br>
 
 --- 
 ## Contribuyendo
 
-Damos la bienvenida a todos los colaboradores 💙
-
-- **Clavaguera Abril**. Estudiante de Desarrollo Web y Aplicaciones Móviles [Ver Github](https://github.com/Abrilc90).
-
-- **Mónica Antich**. Estudiante de Desarrollo Web y Aplicaciones Móviles [Ver Github](https://github.com/MonicaAntich).
-
-- **Zapata, Mónica**. Estudiante de Desarrollo Web y Aplicaciones Móviles [Ver Github](https://github.com/MonicaVZapata).
-
-- **Gonzalez Mario**. IEstudiante de Desarrollo Web y Aplicaciones Móviles [Ver Github](https://github.com/mariogonzalezispc).
-
 - **Ferreyra Gastón**. Estudiante de Desarrollo Web y Aplicaciones Móviles [Ver Github](https://github.com/gastonloco).
 --- 
 
-## Actividad 1 - Sprint 0
-
-Se les solicitará un proyecto aplicando todos los contenidos dados en los módulos de la cursada (HTML5, CSS3, BOOTSTRAP, JAVASCRIPT),  pueden recurrir a la web de W3School para extraer recursos necesarios.
-
-Al proyecto desarrollado en 2021, la “consultora ISPC”, solicita  en esta oportunidad, incorporar un módulo de e-commerce para comercializar sus productos y/o servicios online.
+## Objetivo: Registrar suscripción
 
 
-### Antes de comenzar:
-
-- Definir Scrum Master inicial (No se registró en planilla) y registrarse todos dentro del nuevo repositorio.
-- Importar el repositorio anterior al nuevo brindado en el foro de cada grupo.
-- Revisar documentación IEEE830 si está completa y retomar desde allí para esta nueva etapa seguir documentando los avances.
-- Revisar la estructura web Semántica y responsive (RWD).
-
-
-###   ANÁLISIS:
-
-- Definir requerimientos para el nuevo módulo a desarrollar e-commerce (colocarlos en el Product Backlog del Project), a su vez revisar si han cumplimentado todos los requerimientos previos, realizar mejoras.
-- Plantear Historias de Usuarios y Tareas dependientes de las US para incorporarlas en el repositorio remoto gitHub. (Issues y Milestones) - Tener en cuenta la redaccion adecuada para las US y nomenclatura, ej “#US01 Como usuario quiero ingresar al carrito para poder comprar”.
-- Definir tareas dentro de las Historias de Usuario (GITHUB) ej dentro de las ISSUES  #TK01 importar repositorio.
+Post- Condiciones: 
+Éxito: 1. Registrar suscripción 
+Fracaso:
+- El suscriptor tiene una suscripción vigente.
+- No pudieron modificarse los datos del suscriptor.
+- La persona no confirma el registro de la nueva suscripción
 
 
-###   DISEÑO:
-
-- Revisar la base de datos previa en MySQL si es funcional, e incorporar nuevas tablas necesarias para el funcionamiento del módulo e-commerce. (Ver el Modelo Relacional publicado en el libro Desafío E-commerce - Proyecto de trabajo Integrador.
-- Crear su propio DER y Modelo relacional para documentar las tablas en la DB.
-- Crear un Diagrama de Clases y Casos de Uso para facilitar el modelado en POO.
+## Objetivo: Registrar Datos completos de un nuevo Suscriptor
 
 
-###   IMPLEMENTACIÓN:
-
-- Convertir el index.html (su home) en una SPA de Angular con módulos y components.
-
----
+Post- Condiciones: 
+Éxito: 1. Datos personales del suscriptor registrado
+Fallo:2. La persona no pudo ser dado de alta.
 
 
-<!--
---- 
-#### Frontend
-- HTML -(25 de octubre 2021)
-- BOOSTRAP-(25 de octubre 2021)
-- CSS -(25 de octubre 2021)
-- Responsive-(25 de octubre 2021)
-- JS-(22 de noviembre 2021)
-- PHP-(22 de noviembre 2021)
+## Objetivo: Modificar Datos completos de un nuevo Suscriptor
 
-<!--
-#### Backend
-- MySQL-(1 de Noviembre 2021)
-- Consultas--(1 de Noviembre 2021)
---- 
--->
---- 
 
-### 🎥 Sistema de Venta - Requisitos
+Post- Condiciones: 
+Éxito: 1. Datos personales del suscriptor modificados
+Fallo: 
+1. El suscriptor no pudo ser modificado.
+2. No se confirmaron los datos modificados
 
-- **Arquitectura de Software**
-- **Diseño de Base de Datos**
-- **Patrones de Diseño**
-- **Creacion de Backend con JAVA**
-- **Creacion de Fronend con ANGULAR**
-<!--
-- **Creacion de App con XAMARIN  (ver)**
--->
---- 
 
-- **Arquitectura de Software**
+## Objetivo: Modificar Datos completos de un nuevo Suscriptor
 
-<p align="center">
-  <a>
-    <img alt="Edit on CodeSandbox" src="https://github.com/PPROF2-2022ProgWeb/g05-aula2-gestiondesposito-g05/blob/main/Angular/src/assets/img/diagrama.png">
-  </a>
-</p>
 
---- 
-
-- **Diseño de Base de Datos**
-
-<p align="center">
-  <a>
-    <img alt="Edit on CodeSandbox" src="https://github.com/PPROF2-2022ProgWeb/g05-aula2-gestiondesposito-g05/blob/main/Angular/src/assets/img/Der.png">
-  </a>
-</p>
-
---- 
+Post- Condiciones: 
+Éxito: 1. Datos personales del suscriptor modificados
+Fallo: 
+1. El suscriptor no pudo ser modificado.
+2. No se confirmaron los datos modificados
 
 
 
 <!-- YT:START -->
 
 <!--
-- [Practica Profesionalizante 1_Parte1][video1]
-- [Practica Profesionalizante 1_Parte2][video2]
-- [IEFI_Programacion_1_Parte1][video3]
-- [IEFI_Programacion_1_Parte2][video4]
-- [IEFI_Base de Datos][video5]
+- [Resolucion del desafío][video1]
+
 
 <!-- YT:END -->
 
 <!--
 ---
 [video1]: https://www.youtube.com/watch?v=oyQQRNPyZ0E
-[video2]: https://www.youtube.com/watch?v=kpJN7WFziL4
-[video3]: https://www.youtube.com/watch?v=ffQc45vwrT0&t=3s
-[video4]: https://www.youtube.com/watch?v=OdESUNqbz74
-[video5]: https://www.youtube.com/watch?v=YJ_Bg6fGyso&t=169s
+
 
 -->
 
