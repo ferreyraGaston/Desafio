@@ -1,0 +1,23 @@
+﻿body {
+   
+    background-image: url(/IMG/fondo-desktop.jpg); /*imagen de fondo*/
+    background-size: cover; /*la imagen de fonndo abarca todo/*/
+  background-repeat: no-repeat; /*no se repita la imagen de fondo*/
+    background-attachment: fixed; /*para que se vea la imagen de fondo sea adj*/
+    background-position: center; /*imagen de fondo centrada*/
+    padding: 0px 0px 0px 0px;
+}
+
+/*body {
+    background: rgb(255, 106, 0);
+}*/
+
+
+.fondocolor {
+    background: rgb(255, 255, 255,0.5);
+   
+}
+
+.textocolor {
+    color: white;
+}
